@@ -1,0 +1,34 @@
+@media only screen and (min-width: 1920px) {
+    body {
+        font-size: 19.2px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    p {
+        font-size: 14.4px;
+    }
+}
+
+a {
+    color: inherit;
+}
+
+.cursor-wrapper {
+    pointer-events: none;
+}
+
+.cls-1,
+.cls-3 {
+    fill: none;
+}
+
+.cls-1 {
+    stroke: currentColor;
+    stroke-miterlimit: 10;
+    stroke-width: 7px;
+}
+
+.cls-2 {
+    fill: currentColor;
+}

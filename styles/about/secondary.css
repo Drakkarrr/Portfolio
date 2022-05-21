@@ -2847,7 +2847,8 @@ blockquote {
   -ms-flex-align: end;
   align-items: flex-end
 }
- {
+
+  {
   display: inline-block;
   margin-bottom: 1rem;
   font-size: 1.6em;
@@ -6488,7 +6489,7 @@ blockquote {
     padding-top: 4em
   }
 
- {
+    {
     overflow: visible;
     margin-bottom: 3em
   }
