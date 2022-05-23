@@ -57,13 +57,30 @@ body {
 .hide-scrollbar {
     overflow: auto;
     -ms-overflow-style: none;
-    /* IE 11 */
     scrollbar-width: none;
-    /* Firefox 64 */
 }
 
-/* Remove inner shadow from inputs on mobile iOS */
 textarea,
 input[type="text"] {
     -webkit-appearance: none;
+}
+
+.section.background {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 8rem;
+    text-align: center;
+    height: auto;
+}
+
+.container.is--footer {
+    background-image: url('../../assets/images/index/sk-building.png');
+    background-position: center;
+    background-attachment: fixed;
+    color: #FFF;
+}
+
+.newsletter__text-field::placeholder {
+    color: #FFF;
 }
