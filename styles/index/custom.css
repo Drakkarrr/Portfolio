@@ -2824,8 +2824,7 @@ blockquote {
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
-  align-items: stretch;
-  background-image: url('../../assets/images/index/sk-building.png') !important;
+  align-items: stretch
 }
 
 .footer-col {
@@ -2849,9 +2848,9 @@ blockquote {
   align-items: flex-end
 }
 
-  {
+.footer-heading {
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 4em;
   font-size: 1.6em;
   font-weight: 400
 }
@@ -5456,6 +5455,7 @@ blockquote {
   height: 100%
 }
 
+
 .timeline__icon {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5698,7 +5698,7 @@ blockquote {
   text-align: center
 }
 
-.sticky-circle_img {
+/* .sticky-circle_img {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -5707,7 +5707,7 @@ blockquote {
   min-width: 100vw;
   -o-object-fit: cover;
   object-fit: cover
-}
+} */
 
 .categories_link {
   position: relative;
@@ -5726,8 +5726,8 @@ blockquote {
   display: flex;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
-  padding-top: 6em;
+  height: 35vh !important;
+  /* padding-top: 6em; */
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5770,8 +5770,9 @@ blockquote {
   font-weight: 400
 }
 
+
 .sticky-circle_wrap {
-  height: 300vh
+  height: 35rem !important;
 }
 
 .section-2.is--catories {
@@ -5799,7 +5800,7 @@ blockquote {
   display: flex;
   overflow: hidden;
   width: 35em;
-  height: 35em;
+  height: 35rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -6490,7 +6491,7 @@ blockquote {
     padding-top: 4em
   }
 
-    {
+  .footer-heading {
     overflow: visible;
     margin-bottom: 3em
   }
@@ -7914,4 +7915,68 @@ blockquote {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+::selection {
+  background: #E8E8E8;
+  color: #121212;
+  text-shadow: none;
+}
+
+.overflow-h {
+  overflow: hidden
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFF;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+:root {
+  scrollbar-width: none !important;
+}
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hide-scrollbar {
+  overflow: auto;
+  -ms-overflow-style: none;
+  /* IE 11 */
+  scrollbar-width: none;
+  /* Firefox 64 */
+}
+
+/* Remove inner shadow from inputs on mobile iOS */
+textarea,
+input[type="text"] {
+  -webkit-appearance: none;
 }

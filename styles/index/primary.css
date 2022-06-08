@@ -5747,8 +5747,8 @@ blockquote {
     display: flex;
     overflow: hidden;
     width: 100%;
-    height: 100vh;
-    padding-top: 6em;
+    height: 35rem;
+    /* padding-top: 6em; */
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -5792,7 +5792,7 @@ blockquote {
 }
 
 .sticky-circle_wrap {
-    height: 300vh
+    height: 35rem;
 }
 
 .section-2.is--catories {
