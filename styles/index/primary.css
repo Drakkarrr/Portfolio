@@ -2731,11 +2731,12 @@ blockquote {
     padding-right: 5em
 }
 
-.heading-colored {
+ {
     color: #bb9248;
     line-height: .8;
     font-style: italic;
-    font-weight: 300
+    font-weight: 300;
+    font-size: 3.5rem;
 }
 
 .main-p {
@@ -2913,6 +2914,16 @@ blockquote {
     border-color: #000 #000 #272827;
     background-color: transparent;
     font-family: Abcdiatype, sans-serif
+}
+
+.name-heading {
+    font-size: 3.5rem;
+    color: #B68E47 !important;
+    font-weight: bolder;
+}
+
+.name-title {
+    font-size: 2rem !important;
 }
 
 .newsletter__text-field::-webkit-input-placeholder {
@@ -3245,8 +3256,7 @@ blockquote {
     font-size: 9em;
     font-weight: 300
 }
-
-.heading-colored-tertiary {
+-tertiary {
     position: relative;
     z-index: 1;
     color: #bb9248;
@@ -4200,7 +4210,8 @@ blockquote {
 
 .heading-white {
     color: #f9f0ec;
-    line-height: 1.1
+    line-height: 1.1;
+    /* font-size: 2rem; */
 }
 
 .project__img {
