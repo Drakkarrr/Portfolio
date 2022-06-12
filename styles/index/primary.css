@@ -39,6 +39,8 @@ audio:not([controls]) {
     height: 0
 }
 
+main-p
+
 [hidden],
 template {
     display: none
@@ -2144,7 +2146,7 @@ body {
     min-height: 100%;
     background-color: #131413;
     font-family: Ivymode, sans-serif;
-    color: #f9f0ec;
+    color: white;
     font-size: 1vw;
     line-height: 1.6;
     font-weight: 300
@@ -2432,7 +2434,7 @@ blockquote {
 
 .section.is--footer {
     margin-top: 7em;
-    background-color: #f9f0ec;
+    background-color: white;
     color: #272827
 }
 
@@ -2485,7 +2487,7 @@ blockquote {
 }
 
 .section.is--light {
-    background-color: #f9f0ec;
+    background-color: white;
     color: #131413
 }
 
@@ -2740,11 +2742,10 @@ blockquote {
     font-size: 3.5rem;
 }
 
-heading-white
 
-.main-p {
+p.main-p {
     font-family: Abcdiatype, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2rem !important;
     font-weight: 400
 }
 
@@ -2927,7 +2928,7 @@ heading-white
 
 .name-title {
     font-size: 2rem !important;
-    color: #f9f0ec;
+    color: white;
 }
 
 .newsletter__text-field::-webkit-input-placeholder {
@@ -3142,7 +3143,7 @@ heading-white
     position: relative;
     z-index: 1;
     font-family: Abcdiatype, sans-serif;
-    color: #f9f0ec;
+    color: white;
     font-weight: 500;
     text-align: center;
     text-transform: uppercase
@@ -4165,7 +4166,7 @@ heading-white
 
 .faq__question {
     font-family: Abcdiatype, sans-serif;
-    color: #f9f0ec;
+    color: white;
     font-weight: 500
 }
 
@@ -4192,7 +4193,7 @@ heading-white
     right: 0;
     bottom: 0;
     z-index: 10;
-    color: #f9f0ec
+    color: white;
 }
 
 .faq__minus {
@@ -4213,7 +4214,7 @@ heading-white
 }
 
 .heading-white {
-    color: #f9f0ec;
+    color: white;
     line-height: 1.1;
 }
 
@@ -4716,7 +4717,7 @@ heading-white
 
 .sm-menu-txt {
     padding-bottom: .5em;
-    color: #f9f0ec;
+    color: white;
     font-size: 1.3em;
     font-weight: 400
 }
@@ -4851,7 +4852,7 @@ heading-white
 }
 
 .share-icon:hover {
-    color: #f9f0ec
+    color: white
 }
 
 .share-icon.black {
@@ -5147,7 +5148,7 @@ heading-white
 .heading-2 {
     z-index: 10;
     font-family: Abcdiatype, sans-serif;
-    color: #f9f0ec;
+    color: white;
     font-size: 1.5em;
     font-weight: 400;
     letter-spacing: .3px;
@@ -5358,7 +5359,7 @@ heading-white
 .timeline_text {
     width: 100%;
     font-family: Abcdiatype, sans-serif;
-    color: #f9f0ec;
+    color: white;
     font-size: 1.6em;
     line-height: 1.6;
     font-weight: 400
@@ -5400,7 +5401,7 @@ heading-white
 
 .contact-heading {
     font-family: Ivymode, sans-serif;
-    color: #f9f0ec;
+    color: white;
     font-size: 1.8em;
     line-height: 1.2;
     font-weight: 300;
@@ -5809,7 +5810,7 @@ heading-white
     position: relative;
     z-index: 2;
     opacity: .74;
-    color: #f9f0ec;
+    color: white;
     font-size: 2em;
     line-height: .8;
     font-weight: 400
@@ -5831,7 +5832,7 @@ heading-white
     right: 0;
     bottom: 0;
     z-index: 1;
-    border: 1px solid #f9f0ec;
+    border: 1px solid white;
     border-radius: 0;
     opacity: .35
 }
