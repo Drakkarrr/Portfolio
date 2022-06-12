@@ -2155,7 +2155,8 @@ h1 {
     font-size: 9em;
     line-height: 1;
     font-weight: 300;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: white;
 }
 
 h2 {
@@ -2728,16 +2729,18 @@ blockquote {
 
 .colored-headings.is--padding {
     padding-top: 1em;
-    padding-right: 5em
+    padding-right: 5em;
 }
 
- {
+ .heading-colored{
     color: #bb9248;
     line-height: .8;
     font-style: italic;
     font-weight: 300;
     font-size: 3.5rem;
 }
+
+heading-white
 
 .main-p {
     font-family: Abcdiatype, sans-serif;
@@ -2924,6 +2927,7 @@ blockquote {
 
 .name-title {
     font-size: 2rem !important;
+    color: #f9f0ec;
 }
 
 .newsletter__text-field::-webkit-input-placeholder {
@@ -3691,7 +3695,7 @@ blockquote {
 .paragraph-4 {
     width: 50%;
     padding-left: 2em;
-    color: rgba(249, 240, 236, .8);
+    color: white;
     font-size: .8em;
     line-height: 1.1;
     letter-spacing: .4px;
@@ -4211,7 +4215,6 @@ blockquote {
 .heading-white {
     color: #f9f0ec;
     line-height: 1.1;
-    /* font-size: 2rem; */
 }
 
 .project__img {
@@ -4219,6 +4222,12 @@ blockquote {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover
+}
+
+.social-icons {
+    width: 2rem !important;
+    height: 2rem !important;
+    color: white;
 }
 
 .values-right__img {
@@ -4241,6 +4250,8 @@ blockquote {
     width: 50%;
     height: 100%
 }
+
+
 
 .project__info {
     display: -webkit-box;
@@ -4268,10 +4279,11 @@ blockquote {
 
 .blog__tag {
     font-family: Abcdiatype, sans-serif;
-    color: rgba(249, 240, 236, .8);
+    color: white;
     font-size: 1.1em;
     font-weight: 400
 }
+
 
 .project__detail {
     display: -webkit-box;
@@ -4667,7 +4679,8 @@ blockquote {
     font-size: 3em;
     line-height: .8;
     font-weight: 300;
-    text-transform: uppercase
+    color: white;
+    text-transform: uppercase;
 }
 
 .fullpage__left,
