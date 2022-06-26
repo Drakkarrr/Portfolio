@@ -75,8 +75,7 @@ input[type="text"] {
 }
 
 .container.is--footer {
-    background-image: url('../../assets/images/index/sk-building.png');
-    background-position: center;
+    background-image: url('../../assets/footerBG.jpg');
     background-attachment: fixed;
     color: #FFF;
 }
