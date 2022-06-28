@@ -5,6 +5,7 @@ html {
     height: 100%
 }
 
+
 html,
 body {
     overscroll-behavior: none;
@@ -2878,7 +2879,8 @@ p.main-p {
 .footer-heading {
     display: inline-block;
     font-size: 1.6em;
-    font-weight: 400
+    font-weight: 400;
+    margin-bottom: 3rem;
 }
 
 .footer-list {
