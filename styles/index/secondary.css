@@ -83,3 +83,8 @@ input[type="text"] {
 .newsletter__text-field::placeholder {
     color: #FFF;
 }
+
+.skill-icons {
+    background-color: red;
+    fill: white;
+}
