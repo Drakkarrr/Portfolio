@@ -85,6 +85,7 @@ input[type="text"] {
 }
 
 .skill-icons {
-    background-color: red;
-    fill: white;
+    /* background-color: red; */
+    fill: white !important;
+    color: #ffffff;
 }
