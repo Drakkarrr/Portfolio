@@ -5,6 +5,7 @@ html {
     height: 100%
 }
 
+footer-form-wrapper
 
 html,
 body {
@@ -2932,72 +2933,6 @@ p.main-p {
     color: white;
 }
 
-.newsletter__text-field::-webkit-input-placeholder {
-    color: rgba(39, 40, 39, .7)
-}
-
-.newsletter__text-field:-ms-input-placeholder {
-    color: rgba(39, 40, 39, .7)
-}
-
-.newsletter__text-field::-ms-input-placeholder {
-    color: rgba(39, 40, 39, .7)
-}
-
-.newsletter__text-field::placeholder {
-    color: rgba(39, 40, 39, .7)
-}
-
-.newsletter__text-field.blog {
-    border-bottom-color: rgba(249, 240, 236, .5);
-    background-color: transparent
-}
-
-.newsletter__text-field.blog::-webkit-input-placeholder {
-    color: rgba(249, 240, 236, .5)
-}
-
-.newsletter__text-field.blog:-ms-input-placeholder {
-    color: rgba(249, 240, 236, .5)
-}
-
-.newsletter__text-field.blog::-ms-input-placeholder {
-    color: rgba(249, 240, 236, .5)
-}
-
-.newsletter__text-field.blog::placeholder {
-    color: rgba(249, 240, 236, .5)
-}
-
-.newsletter-btn-wrapper {
-    position: absolute;
-    left: auto;
-    top: 25%;
-    right: 0;
-    bottom: auto
-}
-
-footer-form-wrapper
-
-
-.newsletter__btn-arrow {
-    width: 2.2em;
-    opacity: .9
-}
-
-.newsletter__submit-btn {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: transparent
-}
-
-.footer__newsletter-p {
-    margin-bottom: 1em;
-    font-family: Abcdiatype, sans-serif
-}
 
 .footer-form-wrapper {
     display: -webkit-box;
@@ -3009,12 +2944,12 @@ footer-form-wrapper
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: row;
-    margin-top: 10px;
-    grid-auto-columns: 1fr;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto
+    margin-top: 8px;
+    grid-auto-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
 }
 
 .footer-form-wrapper > a {
