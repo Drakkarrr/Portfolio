@@ -2619,13 +2619,14 @@ blockquote {
   align-items: center
 }
 
-.nav__logo-svg {
+/* .nav__logo-svg {
   display: inline-block;
   width: 7em;
+  background-color: red;
   color: #bb9248;
   line-height: 1;
   text-align: left
-}
+} */
 
 .nav__menu-lottie {
   height: 2em
