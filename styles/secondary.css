@@ -65,6 +65,10 @@ input[type="text"] {
     -webkit-appearance: none;
 }
 
+.cursor-wrapper {
+    pointer-events: none;
+}
+
 .section.background {
     flex-direction: column;
     justify-content: flex-start;

@@ -48,6 +48,10 @@ template {
     display: none
 }
 
+a {
+    color: inherit;
+}
+
 a:active,
 a:hover {
     outline: 0
@@ -355,8 +359,6 @@ html[data-w-dynpage] [data-w-cloak] {
     text-transform: inherit;
     list-style-type: disc;
     text-shadow: none;
-    font-smoothing: auto;
-    vertical-align: baseline;
     cursor: inherit;
     white-space: inherit;
     word-break: normal;
@@ -487,98 +489,6 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: 700
-}
-
-.w-input,
-.w-select {
-    display: block;
-    width: 100%;
-    height: 38px;
-    padding: 8px 12px;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    vertical-align: middle;
-    background-color: #fff;
-    border: 1px solid #ccc
-}
-
-.w-input:-moz-placeholder,
-.w-select:-moz-placeholder {
-    color: #999
-}
-
-.w-input::-moz-placeholder,
-.w-select::-moz-placeholder {
-    color: #999;
-    opacity: 1
-}
-
-.w-input:-ms-input-placeholder,
-.w-select:-ms-input-placeholder {
-    color: #999
-}
-
-.w-input::-webkit-input-placeholder,
-.w-select::-webkit-input-placeholder {
-    color: #999
-}
-
-.w-input:focus,
-.w-select:focus {
-    border-color: #3898ec;
-    outline: 0
-}
-
-.w-input[disabled],
-.w-input[readonly],
-.w-select[disabled],
-.w-select[readonly],
-fieldset[disabled] .w-input,
-fieldset[disabled] .w-select {
-    cursor: not-allowed;
-    background-color: #eee
-}
-
-textarea.w-input,
-textarea.w-select {
-    height: auto
-}
-
-.w-select {
-    background-color: #f3f3f3
-}
-
-.w-select[multiple] {
-    height: auto
-}
-
-.w-form-label {
-    display: inline-block;
-    cursor: pointer;
-    font-weight: 400;
-    margin-bottom: 0
-}
-
-.w-radio {
-    display: block;
-    margin-bottom: 5px;
-    padding-left: 20px
-}
-
-.w-radio:after,
-.w-radio:before {
-    content: " ";
-    display: table;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-column-end: 2;
-    grid-row-end: 2
-}
-
-.w-radio:after {
-    clear: both
 }
 
 .w-radio-input {
@@ -2907,7 +2817,12 @@ p.main-p {
 
 .footer__link-item.mb {
     margin-bottom: 1em;
-    font-family: Abcdiatype, sans-serif
+    font-family: Abcdiatype, sans-serif;
+    width: 90vw;
+}
+
+.footer__link-item.mb, a {
+    font-size: 1rem;
 }
 
 .newsletter-form {
@@ -6480,7 +6395,7 @@ p.main-p {
 
     .footer-heading {
         overflow: visible;
-        margin-bottom: 3em
+        margin-bottom: 1rem
     }
 
     .footer__newsletter-p {

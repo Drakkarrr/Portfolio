@@ -10,14 +10,6 @@
   }
 }
 
-a {
-  color: inherit;
-}
-
-.cursor-wrapper {
-  pointer-events: none;
-}
-
 @media (min-width:992px) {
     html.w-mod-js:not(.w-mod-ix) [data-w-id="64c35d5a-82ad-02a2-19d6-4bd1703656c9"] {
       -webkit-transform: translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
