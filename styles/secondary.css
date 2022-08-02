@@ -36,22 +36,24 @@
 
 
 body {
-    -webkit-font-smoothing: antialiased;
-}
-
-body {
     overflow: -moz-scrollbars-none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     -ms-overflow-style: none;
+    font-family: 'Walter Turncoat', cursive;
 }
 
 :root {
     scrollbar-width: none !important;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Walter Turncoat', cursive;
+}
 
-body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+span, a, p, p.main, button {
+    font-family: 'Poppins', sans-serif;
 }
 
 .hide-scrollbar {

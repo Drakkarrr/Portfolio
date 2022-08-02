@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Walter+Turncoat&display=swap');
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -71,29 +73,8 @@ dfn {
     font-style: italic
 }
 
-mark {
-    background: #ff0;
-    color: #000
-}
-
 small {
     font-size: 80%
-}
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline
-}
-
-sup {
-    top: -.5em
-}
-
-sub {
-    bottom: -.25em
 }
 
 img {
@@ -204,7 +185,6 @@ th {
 [class*=" w-icon-"],
 [class^=w-icon-] {
     font-family: webflow-icons !important;
-    speak: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -2569,14 +2549,15 @@ blockquote {
 }
 
 .nav__cta-text {
+    font-family: 'Poppins', sans-serif;
     position: relative;
     z-index: 2;
     padding-top: 1px;
-    color: #000;
+    color: #fff;
     line-height: .6;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: .3px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .cta-main {
@@ -2656,7 +2637,7 @@ blockquote {
 
 
 p.main-p {
-    font-family: Abcdiatype, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem !important;
     font-weight: 400
 }
@@ -3000,13 +2981,13 @@ p.main-p {
     right: 0;
     margin-top: -5em;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .outlined-cta-text {
     position: relative;
     z-index: 1;
-    font-family: Abcdiatype, sans-serif;
     color: white;
     font-weight: 500;
     text-align: center;
@@ -3045,71 +3026,10 @@ p.main-p {
     background-size: cover, auto
 }
 
-.blog-tag {
-    position: relative;
-    z-index: 10;
-    display: inline-block;
-    font-family: Abcdiatype, sans-serif;
-    font-size: 1.3em;
-    font-weight: 500;
-    text-transform: uppercase
-}
-
-.blog-paragraph {
-    position: relative;
-    z-index: 10;
-    margin-top: 1.4em;
-    margin-bottom: auto;
-    font-family: Ivymode, sans-serif;
-    font-size: 2.6em;
-    line-height: 1.3;
-    font-weight: 400
-}
-
-.blog-date__day {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 8em;
-    font-weight: 300
-}
-
-.blog-date__day.is--2 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0
-}
-
-.blog-date__month {
-    margin-left: .5em;
-    font-family: Abcdiatype, sans-serif;
-    font-weight: 400;
-    text-transform: uppercase
-}
-
-.blog-date {
-    position: relative;
-    z-index: 10;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
-    align-items: flex-end
-}
 
 .paragraph__sarif {
     width: 68%;
-    font-family: Ivymode, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2em;
     text-align: center
 }
@@ -4543,7 +4463,7 @@ p.main-p {
 }
 
 .fullpage__item-text {
-    font-family: Ivymode, sans-serif;
+    font-family: 'Walter Turncoat', cursive;
     font-size: 3em;
     line-height: .8;
     font-weight: 300;
@@ -4575,7 +4495,7 @@ p.main-p {
 }
 
 .fullpage__item-text-2 {
-    font-family: Ivymode, sans-serif;
+    font-family: 'Walter Turncoat', cursive;
     font-size: 1.6em;
     line-height: .8;
     font-weight: 300;
@@ -4809,7 +4729,8 @@ p.main-p {
     padding: 3.9em 2em;
     border: 1px solid #bb9248;
     border-radius: 100%;
-    background-color: #bb9248
+    background-color: #bb9248;
+    font-family: 'Walter Turncoat', cursive;
 }
 
 .btn-cover-main.no-border {
@@ -4818,12 +4739,12 @@ p.main-p {
 
 .colored-cta-text-1 {
     position: relative;
-    z-index: 1;
-    font-family: Abcdiatype, sans-serif;
-    color: #000;
-    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(250, 250, 250);
+    font-weight: 700;
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
+    z-index: 1;
 }
 
 .btn-cover-outlined {
@@ -5853,11 +5774,12 @@ p.main-p {
 
     .nav__cta,
     .nav__logo {
-        width: 30%
+        width: 30%;
     }
 
     .main-p {
-        font-size: 1em
+        font-size: 1em;
+        font-family: 'Poppins', sans-serif;
     }
 
     .main-p.is-apply {
@@ -7754,11 +7676,9 @@ p.main-p {
 }
 
 #w-node-ad588d48-18eb-dcaa-0895-7599fff0d365-bbf284dd {
-    -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
     grid-row-end: span 1;
-    -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
@@ -7771,60 +7691,4 @@ p.main-p {
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch
-}
-
-@font-face {
-    font-family: 'Ivymode';
-    src: url('https://uploads-ssl.webflow.com/61ec1a21c49ca64c3e2eb550/61ec1a21c49ca6a7bb2eb592_IvyMode-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ivymode';
-    src: url('https://uploads-ssl.webflow.com/61ec1a21c49ca64c3e2eb550/61ec1a21c49ca6e6142eb595_IvyMode-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ivymode';
-    src: url('https://uploads-ssl.webflow.com/61ec1a21c49ca64c3e2eb550/61ec1a21c49ca63a122eb5a4_IvyMode-Italic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ivymode';
-    src: url('https://uploads-ssl.webflow.com/61ec1a21c49ca64c3e2eb550/61ec1a21c49ca674b02eb5c7_IvyMode-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ivymode';
-    src: url('https://uploads-ssl.webflow.com/61ec1a21c49ca64c3e2eb550/61ec1a21c49ca65f702eb5cc_IvyMode-Regular.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Abcdiatype';
-    src: url('https://uploads-ssl.webflow.com/61ec1a21c49ca64c3e2eb550/61ec1a21c49ca612f32eb597_ABCDiatype-Medium-Trial.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Abcdiatype';
-    src: url('https://uploads-ssl.webflow.com/61ec1a21c49ca64c3e2eb550/61ec1a21c49ca6325f2eb583_ABCDiatype-Regular-Trial.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
 }
