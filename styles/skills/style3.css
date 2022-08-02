@@ -1,0 +1,27 @@
+@media only screen and (min-width:1920px) {
+    body {
+        font-size: 19.2px
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    p {
+        font-size: 14.4px
+    }
+}
+
+@media (max-width:370px) {
+    .footer-heading {
+        width: 92vw
+    }
+
+    .footer-form-wrapper {
+        display: flex;
+        justify-content: center
+    }
+
+    .footer-link {
+        position: absolute;
+        top: 15
+    }
+}
