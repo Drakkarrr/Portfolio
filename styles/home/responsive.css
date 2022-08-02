@@ -28,4 +28,8 @@
     .header_text-move {
         font-size: 1.2rem
     }
+
+    .container.is--nav {
+        padding-bottom: 0;
+    }
 }

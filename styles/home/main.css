@@ -1895,7 +1895,7 @@ a {
     }
 
     .container.is--nav {
-        padding-bottom: 2em
+        padding-bottom: 2rem;
     }
 
     .container.is--page-hero.mb {
