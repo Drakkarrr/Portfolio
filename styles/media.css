@@ -81,3 +81,23 @@
       transform: translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
     }
   }
+
+  @media (max-width:370px) {
+    .footer-heading {
+      width: 92vw;
+    }
+
+    .footer-form-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-link {
+      position: absolute;
+      top: 15;
+    }
+
+    .header_text-move {
+      font-size: 1.2rem;
+    }
+  }
