@@ -82,7 +82,7 @@
     }
   }
 
-  @media (max-width:370px) {
+  @media (min-width: 320px) and (max-width: 479px) {
     .footer-heading {
       width: 92vw;
     }
@@ -99,5 +99,13 @@
 
     .header_text-move {
       font-size: 1.2rem;
+    }
+
+    .container.is--nav {
+      padding-bottom: 0;
+    }
+
+    .fullpage__left {
+      margin-top: 10em
     }
   }
