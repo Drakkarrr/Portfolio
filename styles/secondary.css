@@ -91,7 +91,6 @@ input[type="text"] {
 }
 
 .skill-icons {
-    /* background-color: red; */
     fill: white !important;
     color: #ffffff;
     width: 10rem;
@@ -99,7 +98,6 @@ input[type="text"] {
 }
 
 .timeline__icon {
-    /* background-color: green; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

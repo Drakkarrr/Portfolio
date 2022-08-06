@@ -4478,7 +4478,6 @@ p.main-p {
     display: flex;
     width: 50%;
     height: 100%;
-    /* background-color: red; */
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
