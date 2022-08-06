@@ -5829,15 +5829,12 @@ p.main-p {
     .project-title {
         font-size: 1.8em;
         color: white;
-        opacity: 1;
-        z-index: 999;
+        z-index: 20;
     }
 
     span.project-description {
         font-size: 20px !important;
         color: white;
-        z-index: 999;
-        background-color: red;
     }
 
     .paragraph__sarif {
