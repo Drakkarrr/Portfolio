@@ -2,9 +2,22 @@
   body {
     font-size: 19.2px;
   }
+  
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .project-title {
+    font-size: 1.8em;
+    color: white;
+    opacity: 1;
+    z-index: 999;
+}
+
+span.project-description {
+    font-size: 1em;
+    color: white;
+    z-index: 999;
+}
   p {
     font-size: 14.4px;
   }

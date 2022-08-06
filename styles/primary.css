@@ -5824,17 +5824,20 @@ p.main-p {
         padding-bottom: 2em
     }
 
-    .blog-right {
-        width: 100%
+    
+
+    .project-title {
+        font-size: 1.8em;
+        color: white;
+        opacity: 1;
+        z-index: 999;
     }
 
-    .blog-card {
-        width: 48%;
-        height: 32rem
-    }
-
-    .blog-paragraph {
-        font-size: 1.8em
+    span.project-description {
+        font-size: 20px !important;
+        color: white;
+        z-index: 999;
+        background-color: red;
     }
 
     .paragraph__sarif {
